@@ -1,0 +1,93 @@
+// Place all the styles related to the ccsf_rails controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+a {color: grey;}
+
+
+a:hover {color:#000000;  background-color: yellow; text-decoration: 
+
+underline;}
+
+
+
+body {
+
+	margin: 30px auto; padding:0px; /* Evidently we need to set body 
+
+margin and padding to get consistency between browsers. */
+
+        font-family: 'Josefin Sans', sans-serif;
+
+        width:1000px; height: 600px;
+
+        background-color: #eeffee;
+
+	}
+
+
+p {
+
+  text-align: center;
+
+}
+
+
+header {
+
+       text-align: center;
+
+       font-size: large;
+
+       }
+
+	
+
+.body {
+
+	width:600px;
+
+	margin:0px auto; /* Right and left margin widths set to "auto" */
+
+	text-align:left; /* Counteract to IE/Win Hack */
+
+	padding:15px;
+
+	border:1px dotted #333;
+
+	background-color:#eee;
+
+        text-align: left; 
+
+        /* IE hack */
+
+	}
+
+
+
+nav {width: 445px;
+
+     text-align:center;
+
+     margin: 20px auto; background-color: #ffffee;}
+
+
+a {text-decoration: underline;}
+
+
+td.pipe {font-size: 10px; font-weight: bold;}
+
+td.nav {font-size: 14px; font-weight: bold;}
+
+
+ul {text-align: left;}
+
+
+
+h3 {text-align: left;}
+
+
+div {margin: 0px auto;}
+
+
+footer{text-align: center;}

@@ -1,0 +1,29 @@
+<h1>Listing ccsf_rails</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Index</th>
+      <th>Links</th>
+      <th>About</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @ccsf_rails.each do |ccsf_rail| %>
+      <tr>
+        <td><%= ccsf_rail.index %></td>
+        <td><%= ccsf_rail.links %></td>
+        <td><%= ccsf_rail.about %></td>
+        <td><%= link_to 'Show', ccsf_rail %></td>
+        <td><%= link_to 'Edit', edit_ccsf_rail_path(ccsf_rail) %></td>
+        <td><%= link_to 'Destroy', ccsf_rail, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Ccsf rail', new_ccsf_rail_path %>

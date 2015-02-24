@@ -1,0 +1,105 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+a {color: grey;}
+
+
+a:hover {color:#000000;  background-color: yellow; text-decoration: 
+
+underline;}
+
+
+
+body {
+
+	margin: 30px auto; padding:0px; /* Evidently we need to set body 
+
+margin and padding to get consistency between browsers. */
+
+        font-family: 'Josefin Sans', sans-serif;
+
+        width:1000px; height: 600px;
+
+        background-color: #aaeeaa;
+
+	}
+
+
+p {
+
+  text-align: center;
+
+}
+
+
+header {
+
+       text-align: center;
+
+       font-size: large;
+
+       }
+
+	
+
+.body {
+
+	width:600px;
+
+	margin:0px auto; /* Right and left margin widths set to "auto" */
+
+	text-align:left; /* Counteract to IE/Win Hack */
+
+	padding:15px;
+
+	border:1px dotted #333;
+
+	background-color:#eee;
+
+        text-align: left; 
+
+        /* IE hack */
+
+	}
+
+
+
+nav {width: 445px;
+
+     text-align:center;
+
+     margin: 20px auto; background-color: #ffffee;}
+
+
+a {text-decoration: underline;}
+
+
+td.pipe {font-size: 10px; font-weight: bold;}
+
+td.nav {font-size: 14px; font-weight: bold;}
+
+
+ul {text-align: left;}
+
+
+
+h3 {text-align: left;}
+
+
+div {margin: 0px auto;}
+
+
+footer{text-align: center;}
