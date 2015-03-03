@@ -1,29 +1,35 @@
-<h1>Listing ccsf_rails</h1>
+<!DOCTYPE html>
 
-<table>
-  <thead>
-    <tr>
-      <th>Index</th>
-      <th>Links</th>
-      <th>About</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
+<html>
 
-  <tbody>
-    <% @ccsf_rails.each do |ccsf_rail| %>
-      <tr>
-        <td><%= ccsf_rail.index %></td>
-        <td><%= ccsf_rail.links %></td>
-        <td><%= ccsf_rail.about %></td>
-        <td><%= link_to 'Show', ccsf_rail %></td>
-        <td><%= link_to 'Edit', edit_ccsf_rail_path(ccsf_rail) %></td>
-        <td><%= link_to 'Destroy', ccsf_rail, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
+  <head>
 
-<br>
+    <title>About | Ruby on Rails Tutorial Sample App</title>
 
-<%= link_to 'New Ccsf rail', new_ccsf_rail_path %>
+  </head>
+
+  <body>
+
+    <h1>About</h1>
+
+    <p>
+
+      The <a href="http://www.railstutorial.org/"><em>Ruby on Rails
+
+      Tutorial</em></a> is a
+
+      <a href="http://www.railstutorial.org/book">book</a> and
+
+      <a href="http://screencasts.railstutorial.org/">screencast series</a>
+
+      to teach web development with
+
+      <a href="http://rubyonrails.org/">Ruby on Rails</a>.
+
+      This is the sample application for the tutorial.
+
+    </p>
+
+  </body>
+
+</html>

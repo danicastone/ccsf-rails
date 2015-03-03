@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  get 'ccsf_rails/home'
+
+  get 'ccsf_rails/help'
+
+  get 'ccsf_rails/about'
+
+  get 'ccsf_rails/contact'
+
   resources :ccsf_rails
   get 'ccsf_rails/index' => 'ccsf_rails#index'
   get 'ccsf_rails/links' => 'ccsf_rails#links'
