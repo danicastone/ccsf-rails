@@ -1,22 +1,20 @@
 Rails.application.routes.draw do
-  get 'ccsf_rails/home'
-
-  get 'ccsf_rails/help'
-
-  get 'ccsf_rails/about'
-
-  get 'ccsf_rails/contact'
-
+  root 'ccsf_rails#home'
+#  get 'ccsf_rails/help'
+#  get 'ccsf_rails/about'
+#  get 'ccsf_rails/contact'
   resources :ccsf_rails
   get 'ccsf_rails/index' => 'ccsf_rails#index'
   get 'ccsf_rails/links' => 'ccsf_rails#links'
   get 'ccsf_rails/about' => 'ccsf_rails#about'
+  get 'ccsf_rails/help' => 'ccsf_rails#help'
+end
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  root 'ccsf_rails#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
@@ -66,4 +64,3 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-end
