@@ -9,7 +9,7 @@ class CCSFRailsControllerTest < ActionController::TestCase
   test "should get home" do
     get :home
     assert_response :success
-    assert_select "title", "#{@base_title}"
+    assert_select "title", "#{@base_title} | CS 232 Ruby on Rails Development"
   end
 
   test "should get help" do
