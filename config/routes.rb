@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'users/new'
+
   root 'ccsf_rails#home'
 #  get 'ccsf_rails/help'
 #  get 'ccsf_rails/about'
@@ -8,6 +10,8 @@ Rails.application.routes.draw do
   get 'ccsf_rails/links' => 'ccsf_rails#links'
   get 'ccsf_rails/about' => 'ccsf_rails#about'
   get 'ccsf_rails/help' => 'ccsf_rails#help'
+  get 'ccsf_rails/contact' => 'ccsf_rails#contact'
+  get 'signup' => 'users#new'
 end
 
 

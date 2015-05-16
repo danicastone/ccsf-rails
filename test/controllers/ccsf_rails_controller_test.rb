@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class CCSFRailsControllerTest < ActionController::TestCase
+class CcsfRailsControllerTest < ActionController::TestCase
 
   def setup
     @base_title = "Ruby on Rails Tutorial Sample App"

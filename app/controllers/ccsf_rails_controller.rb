@@ -1,6 +1,6 @@
 class ApplicationController < ActionController::Base
 end
-class CCSFRailsController < ApplicationController
+class CcsfRailsController < ApplicationController
   def home
   end
 
