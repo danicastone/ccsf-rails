@@ -12,6 +12,7 @@ Rails.application.routes.draw do
   get 'help' => 'ccsf_rails#help'
   get 'contact' => 'ccsf_rails#contact'
   get 'signup' => 'users#new'
+  resources :users 
 end
 
 
