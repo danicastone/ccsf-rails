@@ -6,11 +6,11 @@ Rails.application.routes.draw do
 #  get 'ccsf_rails/about'
 #  get 'ccsf_rails/contact'
   resources :ccsf_rails
-  get 'ccsf_rails/index' => 'ccsf_rails#index'
-  get 'ccsf_rails/links' => 'ccsf_rails#links'
-  get 'ccsf_rails/about' => 'ccsf_rails#about'
-  get 'ccsf_rails/help' => 'ccsf_rails#help'
-  get 'ccsf_rails/contact' => 'ccsf_rails#contact'
+  get 'index' => 'ccsf_rails#index'
+  get 'links' => 'ccsf_rails#links'
+  get 'about' => 'ccsf_rails#about'
+  get 'help' => 'ccsf_rails#help'
+  get 'contact' => 'ccsf_rails#contact'
   get 'signup' => 'users#new'
 end
 
