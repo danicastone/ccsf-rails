@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'final_exam_controller/hello_world'
+
   get 'sessions/new'
 
   get 'users/new'

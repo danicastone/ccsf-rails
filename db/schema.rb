@@ -11,12 +11,12 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150517182117) do
+ActiveRecord::Schema.define(version: 20150518215551) do
 
   create_table "ccsf_rails", force: :cascade do |t|
-    t.string   "index",      limit: 255
-    t.string   "links",      limit: 255
-    t.string   "about",      limit: 255
+    t.string   "index"
+    t.string   "links"
+    t.string   "about"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -24,10 +24,11 @@ ActiveRecord::Schema.define(version: 20150517182117) do
   create_table "users", force: :cascade do |t|
     t.string   "name"
     t.string   "email"
-    t.datetime "created_at",      null: false
-    t.datetime "updated_at",      null: false
+    t.datetime "created_at",                      null: false
+    t.datetime "updated_at",                      null: false
     t.string   "password_digest"
     t.string   "remember_digest"
+    t.boolean  "admin",           default: false
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true
