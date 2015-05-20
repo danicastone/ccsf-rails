@@ -16,4 +16,4 @@
 /tmp
 
 # Ignore mystifying bullshit.
-.c9/metadata/tab7
+.c9/metadata/*
