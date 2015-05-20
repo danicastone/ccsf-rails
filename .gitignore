@@ -17,7 +17,7 @@
 /tmp
 
 # Ignore mystifying bullshit.
-.c9/metadata/*
+.c9/*
 
 # Ignore Spring files.
 /spring/*.pid
